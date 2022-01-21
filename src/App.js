@@ -2,14 +2,17 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  var style = {
+    backgroundColor : 'white',
+    color : 'black'
+  }
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <p>My First React Paragraph</p>
+        
+        <p style={style}>My First React Paragraph</p>
+        <h2 style={{backgroundColor:'yellow', color:'goldenrod'}}>First React Heading</h2>
+
       </header>
     </div>
   );
